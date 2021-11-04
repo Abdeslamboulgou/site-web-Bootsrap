@@ -1,0 +1,112 @@
+body{
+    font-family: 'Italianno', cursive;
+    padding: 0;
+    margin: 0;
+
+}
+
+#image-back{
+    padding-top: 60px;
+    background: url("https://pix10.agoda.net/hotelImages/127/1275241/1275241_16081916490045632665.jpg?s=1024x768") no-repeat  fixed  50%  50%;
+    background-size: cover;
+    height: 800px;
+}
+h1{
+    font-family:'Fruktur', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: blanchedalmond;
+    margin-top: 40px;
+    text-shadow: 2px 2px 2px black ;
+}
+#ligne{
+    width: 20%;
+    margin: 60px auto;
+    color: rgb(255, 255, 255);
+    height: 4px;
+    box-shadow: 6px 6px 6px black ;
+
+}
+h4{
+    text-align: center;
+    color: blanchedalmond;
+    position: relative;
+    font-family:'Fruktur', cursive;
+    top: 10px;
+    text-shadow: 2px 2px 2px black ;
+
+}
+.part1{
+    background-color: rgb(247, 224, 195);
+    padding: 10px 0px 100px 0px;
+}
+#content{
+    padding: 0px  10%;
+}
+#dkhla{
+    text-transform: uppercase;
+    font-family:'Zen Kurenaido', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(190, 189, 189) ;
+
+}
+section > a{
+    text-decoration: none;
+    color: black;
+}
+#read {
+    margin-bottom:20px;
+     padding:0 25px;
+    }
+#read p {
+    display:none;
+}
+#read .show {
+    display:block;
+}
+#read:target .show {
+    display:none;
+}
+#read .hide {
+    display:none;
+}
+#read:target .hide {
+    display:block;
+}
+#read:target p {
+    display:block;
+}
+div > img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+#hotel-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 14px;
+    margin-left: 40px ;
+   /* margin-top: 10px;*/
+    padding: 10px 1%;
+}
+.tsawr{
+    box-shadow: 4px 4px 4px gray;
+    box-sizing: border-box;
+}
+.tsawr:hover{
+    animation: zoom 2s forwards;
+    opacity: 0.85;
+}
+@keyframes zoom {
+    0%{
+         transform: scale(1);
+         box-shadow: 0 2px 5px  rgb(24, 23, 23);
+    }
+    100%{
+             transform: scale(1.1);
+    }
+}
+
