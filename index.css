@@ -1,7 +1,7 @@
 body{
     font-family: 'Italianno', cursive;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 
 }
 html{
@@ -12,6 +12,7 @@ html{
     padding-top: 60px;
     background: url("https://pix10.agoda.net/hotelImages/127/1275241/1275241_16081916490045632665.jpg?s=1024x768") no-repeat  fixed  50%  50%;
     background-size: cover;
+    width: 100%;
     height: 800px;
 }
 h1{
@@ -70,6 +71,28 @@ h4{
     font-size: 30px;
     text-shadow: 1px 1px 1px rgb(190, 189, 189) ;
 
+}
+.reslogo{
+    box-shadow: 0px 3px 3px rgb(39, 39, 39);
+    margin-bottom: 8px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 12px;
+
+
+}
+.reslogo img{
+    margin-left: 45%;
+    margin-top: 1%;
+    height: 120px;
+    width: 120px;
+}
+.reslogo p{
+    margin-top: 1%;
+    padding: 4px 60px;
+    justify-content: justify;
+    font-size: 14px;
+    font-weight: bolder;
 }
 .part{
     margin-top: 30px;
@@ -231,7 +254,8 @@ div > img{
 #decouvrir #mosque, #decouvrir #montagne{
     float: right;
 }
-#ksar p, #kasbah p, #valle p{
+
+#ksar p,#valle p, #kasbah p{
     background: linear-gradient(45deg , rgb(235, 153, 153) , rgb(146, 151, 148) );
     position: relative;
     top: 30%;
@@ -268,7 +292,7 @@ div > img{
 .item{
     width: 500px;
     height: 20px;
-    background-color: rgb(206, 206, 253) ;
+    background-color: rgb(199, 199, 204) ;
     border: none transparent;
     outline: none;
     border-bottom: 1px solid black;
